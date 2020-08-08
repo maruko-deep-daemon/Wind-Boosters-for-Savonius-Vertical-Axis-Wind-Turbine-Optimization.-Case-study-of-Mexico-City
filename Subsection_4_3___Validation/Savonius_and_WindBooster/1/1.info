@@ -1,0 +1,154 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2019 SP3.0. Build: 4547
+                Computer name:   DESKTOP-GR6SC6A
+                User name:   Marco Antonio
+                Processors:   Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+                Memory:   32650 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.18363)
+                CAD version:   SOLIDWORKS 2019 SP3.0
+                CPU speed:   3401 MHz
+
+    General Info
+                Model:   Ensamblaje1.SLDASM
+                Project name:   Sim_Savonius_Alone_Vel_2ms
+                Project path:   C:\MAM_Armendariz\Jesua\Modelos booster\Modelo final\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -3.708 m
+                X max:   5.793 m
+                Y min:   -3.128 m
+                Y max:   4.171 m
+                Z min:   -3.708 m
+                Z max:   3.708 m
+                X size:   9.501 m
+                Y size:   7.299 m
+                Z size:   7.416 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   40
+                Number of cells in Y:   32
+                Number of cells in Z:   32
+
+        Number Of Cells
+                Cells:   43372
+                Fluid cells:   43372
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+
+        Global Goals
+
+            GG Minimum Static Pressure 1
+                Type:   Global Goal
+                Goal type:   Static Pressure
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Average Static Pressure 1
+                Type:   Global Goal
+                Goal type:   Static Pressure
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Static Pressure 1
+                Type:   Global Goal
+                Goal type:   Static Pressure
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Minimum Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Average Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Minimum Velocity (X) 1
+                Type:   Global Goal
+                Goal type:   Velocity (X)
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Average Velocity (X) 1
+                Type:   Global Goal
+                Goal type:   Velocity (X)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Velocity (X) 1
+                Type:   Global Goal
+                Goal type:   Velocity (X)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                           	Unit   	Value       	Progress   	Criteria         	Delta            	Use in convergence 
+                GG Minimum Static Pressure 1   	Pa     	101697.68   	100        	1.23763048       	0.0551097349     	On                 
+                GG Average Static Pressure 1   	Pa     	101699.99   	100        	0.00101699992    	0.000486231089   	On                 
+                GG Maximum Static Pressure 1   	Pa     	101704.03   	100        	1.45147333       	0.0561232429     	On                 
+                GG Minimum Total Pressure 1    	Pa     	101697.68   	100        	1.23763048       	0.0551097349     	On                 
+                GG Average Total Pressure 1    	Pa     	101702.38   	100        	0.00108555315    	0.000916040153   	On                 
+                GG Maximum Total Pressure 1    	Pa     	101704.45   	100        	1.44969647       	0.0367102043     	On                 
+                GG Minimum Velocity (X) 1      	m/s    	-0.980      	100        	0.0293255518     	0.0264263263     	On                 
+                GG Average Velocity (X) 1      	m/s    	1.976       	100        	0.000837824131   	0.000750683099   	On                 
+                GG Maximum Velocity (X) 1      	m/s    	2.212       	100        	0.0364081699     	0.00558937164    	On                 
+
+    General Info
+                Run at:   DESKTOP-GR6SC6A
+                Number of cores:   8
+                Iterations:   151
+                CPU time:   103 s
+
+        Log
+                Mesh generation started	0:   10:54:40 , Jul 16
+                Mesh generation normally finished	0:   10:54:43 , Jul 16
+                Preparing data for calculation	0:   10:54:43 , Jul 16
+                Calculation started	0:   10:54:45 , Jul 16
+                Calculation has converged since the following criteria are satisfied:	151:   10:56:26 , Jul 16
+                    Goals are converged	151:   
+                Calculation finished	151:   10:56:27 , Jul 16
